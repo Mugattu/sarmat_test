@@ -29,8 +29,6 @@ function App() {
     }
   };
 
-  console.log(users);
-
   const handleUserClick = (user) => {
     setSelectedUser(user);
     setIsUserProfileOpen(true);
